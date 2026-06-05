@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c1",
+    "name": "Floria",
+    "type": "Planta",
+    "level": 3,
+    "rarity": "common",
+    "desc": "Pequeña criatura de hojas vivas.",
+    "baseCaptureChance": 0.7,
+    "img": "/images/floria.svg",
+    "coords": [-33.4489, -70.6693],
+    "stats": { "hp": 20, "attack": 6, "defense": 4 }
+  },
+  {
+    "id": "c2",
+    "name": "Glimbat",
+    "type": "Volador",
+    "level": 5,
+    "rarity": "rare",
+    "desc": "Vuela con destellos de luz.",
+    "baseCaptureChance": 0.55,
+    "img": "/images/glimbat.svg",
+    "coords": [-33.4495, -70.6700],
+    "stats": { "hp": 28, "attack": 9, "defense": 5 }
+  },
+  {
+    "id": "c3",
+    "name": "Rokkid",
+    "type": "Roca",
+    "level": 7,
+    "rarity": "rare",
+    "desc": "Duro como una piedra.",
+    "baseCaptureChance": 0.5,
+    "img": "/images/rokkid.svg",
+    "coords": [-33.4475, -70.6680],
+    "stats": { "hp": 40, "attack": 12, "defense": 10 }
+  },
+  {
+    "id": "c4",
+    "name": "Lumini",
+    "type": "Éter",
+    "level": 10,
+    "rarity": "epic",
+    "desc": "Resplandece en la noche.",
+    "baseCaptureChance": 0.35,
+    "img": "/images/lumini.svg",
+    "coords": [-33.4500, -70.6710],
+    "stats": { "hp": 30, "attack": 18, "defense": 8 }
+  },
+  {
+    "id": "c5",
+    "name": "Hydrix",
+    "type": "Agua",
+    "level": 12,
+    "rarity": "epic",
+    "desc": "Navega corrientes con destreza.",
+    "baseCaptureChance": 0.3,
+    "img": "/images/hydrix.svg",
+    "coords": [-33.4460, -70.6670],
+    "stats": { "hp": 45, "attack": 16, "defense": 12 }
+  },
+  {
+    "id": "c6",
+    "name": "Voltara",
+    "type": "Eléctrico",
+    "level": 15,
+    "rarity": "legendary",
+    "desc": "Rayo con voluntad propia.",
+    "baseCaptureChance": 0.12,
+    "img": "/images/voltara.svg",
+    "coords": [-33.4490, -70.6720],
+    "stats": { "hp": 60, "attack": 26, "defense": 14 }
+  }
+]

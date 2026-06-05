@@ -1,0 +1,252 @@
+/* ── Card Container ── */
+.card {
+  display: flex;
+  gap: 14px;
+  background: linear-gradient(135deg, var(--card-bg-top) 0%, var(--card-bg-bottom) 100%);
+  border: 2px solid var(--card-border);
+  padding: 14px;
+  border-radius: 12px;
+  color: var(--text-main);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease, opacity 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.fadeOut {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.95);
+}
+
+/* ── Avatar wrapper ── */
+.avatarWrap {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--panel-bg);
+}
+
+/* ── Real Pokémon image ── */
+.pokemonImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.4s ease;
+  display: block;
+}
+
+/* ── Fallback placeholder (initials) ── */
+.placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+/* ── Info section ── */
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.nameRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  gap: 6px;
+}
+
+.typeBadge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
+/* ── Rarity badge styling (Visual Hierarchy) ── */
+.rarityBadge {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+}
+
+/* COMMON */
+.rarity_common {
+  background: #94a3b8;
+  color: #fff;
+}
+
+/* RARE */
+.rarity_rare {
+  background: #3b82f6;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+}
+
+/* EPIC */
+.rarity_epic {
+  background: linear-gradient(135deg, #a855f7, #7e22ce);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+}
+
+/* LEGENDARY */
+.rarity_legendary {
+  background: linear-gradient(135deg, #fcd34d, #f59e0b, #d97706);
+  background-size: 200% 200%;
+  color: #451a03;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.6);
+  animation: legendaryShimmer 2s ease infinite;
+}
+
+@keyframes legendaryShimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cardLegendary {
+  border-color: #f59e0b !important;
+  box-shadow: inset 0 0 20px rgba(245, 158, 11, 0.1) !important;
+}
+
+/* ── Buttons ── */
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 6px;
+  position: relative;
+}
+
+.btnCapture {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #06d6a0, #04a67a);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.3s;
+  box-shadow: 0 2px 8px rgba(6,214,160,0.35);
+  position: relative;
+  overflow: hidden;
+  min-height: 44px; /* Touch target */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCapture:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(6,214,160,0.55);
+}
+
+.btnCapture:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.btnCaptured {
+  background: #10b981;
+  cursor: default;
+  opacity: 0.8;
+  box-shadow: none;
+}
+
+.btnDetails {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #ffd166, #f5a623);
+  border: none;
+  border-radius: 8px;
+  color: #1a1a2e;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(255,209,102,0.35);
+  min-height: 44px; /* Touch target */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDetails:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(255,209,102,0.55);
+}
+
+.btnDetails:active {
+  transform: scale(0.96);
+}
+
+/* ── Pokeball Animation ── */
+.pokeballAnim {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 30% 30%, #fff 10%, #dc2626 50%, #7f1d1d 90%);
+  border-radius: 50%;
+  border: 2px solid #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+  z-index: 10;
+  animation: throwPokeball 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Anillo central de la pokeball */
+.pokeballAnim::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; height: 2px;
+  background: #000;
+}
+
+.pokeballAnim::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px; height: 6px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+@keyframes throwPokeball {
+  0% { transform: translate(-50%, 50px) scale(0) rotate(0deg); opacity: 0; }
+  50% { transform: translate(-50%, -30px) scale(1.5) rotate(180deg); opacity: 1; }
+  100% { transform: translate(-50%, -50%) scale(1) rotate(360deg); opacity: 1; }
+}

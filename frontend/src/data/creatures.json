@@ -1,0 +1,952 @@
+[
+  {
+    "id": "p6",
+    "name": "Charizard",
+    "type": "Fuego",
+    "level": 36,
+    "rarity": "epic",
+    "desc": "Escupe fuego tan caliente que puede derretir cualquier cosa.",
+    "baseCaptureChance": 0.15,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "coords": [
+      -33.47159593328286,
+      -70.70140391341059
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78
+    }
+  },
+  {
+    "id": "p3",
+    "name": "Venusaur",
+    "type": "Planta",
+    "level": 36,
+    "rarity": "epic",
+    "desc": "La flor de su espalda absorbe la luz solar para generar energía.",
+    "baseCaptureChance": 0.15,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "coords": [
+      -33.417276627901835,
+      -70.62689718335872
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83
+    }
+  },
+  {
+    "id": "p9",
+    "name": "Blastoise",
+    "type": "Agua",
+    "level": 36,
+    "rarity": "epic",
+    "desc": "Los cañones de su caparazón pueden atravesar acero grueso.",
+    "baseCaptureChance": 0.15,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "coords": [
+      -33.43478878398762,
+      -70.70925079616234
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100
+    }
+  },
+  {
+    "id": "p39",
+    "name": "Jigglypuff",
+    "type": "Normal",
+    "level": 8,
+    "rarity": "common",
+    "desc": "Su canto hipnótico puede dormir hasta al rival más feroz.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "coords": [
+      -33.42764134724071,
+      -70.70447232490105
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20
+    }
+  },
+  {
+    "id": "p52",
+    "name": "Meowth",
+    "type": "Normal",
+    "level": 9,
+    "rarity": "common",
+    "desc": "Le encanta coleccionar monedas brillantes mientras deambula.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "coords": [
+      -33.41247326140395,
+      -70.66183825639908
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35
+    }
+  },
+  {
+    "id": "p54",
+    "name": "Psyduck",
+    "type": "Agua",
+    "level": 7,
+    "rarity": "common",
+    "desc": "Sufre constantes dolores de cabeza que desatan poderes psíquicos.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "coords": [
+      -33.47628387027074,
+      -70.69728311027524
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48
+    }
+  },
+  {
+    "id": "p74",
+    "name": "Geodude",
+    "type": "Roca",
+    "level": 6,
+    "rarity": "common",
+    "desc": "Se camufla tan bien entre las piedras que la gente lo pisa sin querer.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "coords": [
+      -33.43067223582444,
+      -70.65281403191896
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100
+    }
+  },
+  {
+    "id": "p92",
+    "name": "Gastly",
+    "type": "Fantasma",
+    "level": 11,
+    "rarity": "common",
+    "desc": "Está formado casi en su totalidad por gas venenoso y oscuridad.",
+    "baseCaptureChance": 0.45,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "coords": [
+      -33.42794192576051,
+      -70.67612739684877
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30
+    }
+  },
+  {
+    "id": "p129",
+    "name": "Magikarp",
+    "type": "Agua",
+    "level": 4,
+    "rarity": "common",
+    "desc": "Es el Pokémon más inútil del mundo, solo sabe saltar.",
+    "baseCaptureChance": 0.7,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "coords": [
+      -33.48669337685021,
+      -70.64268042605562
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55
+    }
+  },
+  {
+    "id": "p16",
+    "name": "Pidgey",
+    "type": "Normal",
+    "level": 5,
+    "rarity": "common",
+    "desc": "Es muy dócil y prefiere huir antes que pelear.",
+    "baseCaptureChance": 0.6,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "coords": [
+      -33.47229946483219,
+      -70.67212152923844
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40
+    }
+  },
+  {
+    "id": "p19",
+    "name": "Rattata",
+    "type": "Normal",
+    "level": 4,
+    "rarity": "common",
+    "desc": "Roe absolutamente todo con sus dientes que no dejan de crecer.",
+    "baseCaptureChance": 0.65,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "coords": [
+      -33.473566840023516,
+      -70.63449158030849
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35
+    }
+  },
+  {
+    "id": "p63",
+    "name": "Abra",
+    "type": "Psíquico",
+    "level": 13,
+    "rarity": "rare",
+    "desc": "Duerme 18 horas al día pero puede teletransportarse si siente peligro.",
+    "baseCaptureChance": 0.35,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "coords": [
+      -33.453908603123935,
+      -70.63506789032779
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15
+    }
+  },
+  {
+    "id": "p79",
+    "name": "Slowpoke",
+    "type": "Agua",
+    "level": 14,
+    "rarity": "rare",
+    "desc": "Es tan lento que tarda 5 segundos en sentir dolor.",
+    "baseCaptureChance": 0.4,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "coords": [
+      -33.414885400061564,
+      -70.63258742665748
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65
+    }
+  },
+  {
+    "id": "p104",
+    "name": "Cubone",
+    "type": "Tierra",
+    "level": 12,
+    "rarity": "rare",
+    "desc": "Siempre lleva puesta la calavera de su madre fallecida.",
+    "baseCaptureChance": 0.38,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "coords": [
+      -33.411496227733444,
+      -70.71413872581962
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95
+    }
+  },
+  {
+    "id": "p131",
+    "name": "Lapras",
+    "type": "Agua",
+    "level": 22,
+    "rarity": "rare",
+    "desc": "Transporta personas cruzando mares con su enorme cuerpo.",
+    "baseCaptureChance": 0.3,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "coords": [
+      -33.44171129536361,
+      -70.63876215250131
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80
+    }
+  },
+  {
+    "id": "p59",
+    "name": "Arcanine",
+    "type": "Fuego",
+    "level": 20,
+    "rarity": "rare",
+    "desc": "Reconocido universalmente como un Pokémon majestuoso y veloz.",
+    "baseCaptureChance": 0.3,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "coords": [
+      -33.4372026867298,
+      -70.7149924754729
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80
+    }
+  },
+  {
+    "id": "p147",
+    "name": "Dratini",
+    "type": "Dragón",
+    "level": 15,
+    "rarity": "rare",
+    "desc": "Muda su piel repetidamente mientras acumula energía vital.",
+    "baseCaptureChance": 0.28,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "coords": [
+      -33.43801665616693,
+      -70.64253579395343
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45
+    }
+  },
+  {
+    "id": "p111",
+    "name": "Rhyhorn",
+    "type": "Roca",
+    "level": 18,
+    "rarity": "rare",
+    "desc": "Su carga es tan poderosa que puede demoler edificios completos.",
+    "baseCaptureChance": 0.35,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "coords": [
+      -33.474607526439364,
+      -70.69176347978758
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95
+    }
+  },
+  {
+    "id": "p123",
+    "name": "Scyther",
+    "type": "Insecto",
+    "level": 20,
+    "rarity": "rare",
+    "desc": "Sus guadañas cortan tan rápido que son invisibles al ojo humano.",
+    "baseCaptureChance": 0.3,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "coords": [
+      -33.447178296173085,
+      -70.700643997371
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80
+    }
+  },
+  {
+    "id": "p45",
+    "name": "Vileplume",
+    "type": "Planta",
+    "level": 22,
+    "rarity": "rare",
+    "desc": "Tiene la flor más grande del mundo Pokémon, llena de polen tóxico.",
+    "baseCaptureChance": 0.32,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "coords": [
+      -33.430642107631165,
+      -70.6504786986273
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85
+    }
+  },
+  {
+    "id": "p130",
+    "name": "Gyarados",
+    "type": "Agua",
+    "level": 30,
+    "rarity": "epic",
+    "desc": "Una vez que comienza a destruir, no para hasta arrasar con todo.",
+    "baseCaptureChance": 0.12,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "coords": [
+      -33.4010905554008,
+      -70.65277422033463
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79
+    }
+  },
+  {
+    "id": "p68",
+    "name": "Machamp",
+    "type": "Lucha",
+    "level": 28,
+    "rarity": "epic",
+    "desc": "Con sus cuatro brazos puede lanzar 1000 golpes en dos segundos.",
+    "baseCaptureChance": 0.18,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "coords": [
+      -33.49804341782655,
+      -70.67037376774557
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80
+    }
+  },
+  {
+    "id": "p76",
+    "name": "Golem",
+    "type": "Roca",
+    "level": 29,
+    "rarity": "epic",
+    "desc": "Se lanza rodando a gran velocidad por las montañas para atacar.",
+    "baseCaptureChance": 0.17,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "coords": [
+      -33.44216956354563,
+      -70.68221997793194
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130
+    }
+  },
+  {
+    "id": "p103",
+    "name": "Exeggutor",
+    "type": "Planta",
+    "level": 27,
+    "rarity": "epic",
+    "desc": "Cada cabeza tiene mente propia y a veces discuten entre sí.",
+    "baseCaptureChance": 0.2,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "coords": [
+      -33.42270770385005,
+      -70.63305186139877
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85
+    }
+  },
+  {
+    "id": "p112",
+    "name": "Rhydon",
+    "type": "Tierra",
+    "level": 30,
+    "rarity": "epic",
+    "desc": "Su cuerno taladra con tanta fuerza que puede traspasar diamantes.",
+    "baseCaptureChance": 0.16,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "coords": [
+      -33.478346802504525,
+      -70.69626851703156
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120
+    }
+  },
+  {
+    "id": "p142",
+    "name": "Aerodactyl",
+    "type": "Roca",
+    "level": 33,
+    "rarity": "epic",
+    "desc": "Un Pokémon prehistórico restaurado de ADN fosilizado en ámbar.",
+    "baseCaptureChance": 0.13,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "coords": [
+      -33.40073992436459,
+      -70.66223555823781
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65
+    }
+  },
+  {
+    "id": "p144",
+    "name": "Articuno",
+    "type": "Hielo",
+    "level": 50,
+    "rarity": "legendary",
+    "desc": "Un Pokémon legendario que congela el agua del ambiente al volar.",
+    "baseCaptureChance": 0.02,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "coords": [
+      -33.4136559440043,
+      -70.67003423133241
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100
+    }
+  },
+  {
+    "id": "p145",
+    "name": "Zapdos",
+    "type": "Eléctrico",
+    "level": 50,
+    "rarity": "legendary",
+    "desc": "Aparece entre las nubes de tormenta y lanza rayos a su paso.",
+    "baseCaptureChance": 0.02,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "coords": [
+      -33.460592061731,
+      -70.68682781499248
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85
+    }
+  },
+  {
+    "id": "p146",
+    "name": "Moltres",
+    "type": "Fuego",
+    "level": 50,
+    "rarity": "legendary",
+    "desc": "Su cuerpo en llamas ilumina la noche como si fuera el sol.",
+    "baseCaptureChance": 0.02,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "coords": [
+      -33.47205438438525,
+      -70.67054407507068
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90
+    }
+  },
+  {
+    "id": "p151",
+    "name": "Mew",
+    "type": "Psíquico",
+    "level": 50,
+    "rarity": "legendary",
+    "desc": "Se dice que contiene el ADN de todos los Pokémon del planeta.",
+    "baseCaptureChance": 0.01,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "coords": [
+      -33.48685714197962,
+      -70.66941504750284
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100
+    }
+  },
+  {
+    "id": "p25",
+    "name": "Pikachu",
+    "type": "Eléctrico",
+    "level": 12,
+    "rarity": "rare",
+    "desc": "Almacena electricidad en sus mejillas y la libera cuando se siente amenazado.",
+    "baseCaptureChance": 0.35,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "coords": [
+      -33.4516,
+      -70.6568
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 30
+    }
+  },
+  {
+    "id": "p1",
+    "name": "Bulbasaur",
+    "type": "Planta",
+    "level": 5,
+    "rarity": "common",
+    "desc": "Nació con una semilla en su espalda que crece conforme él madura.",
+    "baseCaptureChance": 0.55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "coords": [
+      -33.4389,
+      -70.6441
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49
+    }
+  },
+  {
+    "id": "p4",
+    "name": "Charmander",
+    "type": "Fuego",
+    "level": 5,
+    "rarity": "common",
+    "desc": "La llama de su cola indica su estado de salud. Si la llama se apaga, muere.",
+    "baseCaptureChance": 0.55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "coords": [
+      -33.4650,
+      -70.6720
+    ],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43
+    }
+  },
+  {
+    "id": "p7",
+    "name": "Squirtle",
+    "type": "Agua",
+    "level": 5,
+    "rarity": "common",
+    "desc": "Su caparazón no es solo para protegerse, también desvía ataques.",
+    "baseCaptureChance": 0.55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "coords": [
+      -33.4890,
+      -70.6380
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65
+    }
+  },
+  {
+    "id": "p133",
+    "name": "Eevee",
+    "type": "Normal",
+    "level": 10,
+    "rarity": "rare",
+    "desc": "Tiene un código genético irregular que le permite evolucionar de muchas formas.",
+    "baseCaptureChance": 0.38,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "coords": [
+      -33.4280,
+      -70.6950
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50
+    }
+  },
+  {
+    "id": "p143",
+    "name": "Snorlax",
+    "type": "Normal",
+    "level": 30,
+    "rarity": "epic",
+    "desc": "Come 400 kilos de comida al día antes de caer profundamente dormido.",
+    "baseCaptureChance": 0.18,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "coords": [
+      -33.4025,
+      -70.6300
+    ],
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65
+    }
+  },
+  {
+    "id": "p94",
+    "name": "Gengar",
+    "type": "Fantasma",
+    "level": 28,
+    "rarity": "epic",
+    "desc": "Si sientes un escalofrío repentino, puede que Gengar esté acechando.",
+    "baseCaptureChance": 0.2,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "coords": [
+      -33.4550,
+      -70.7100
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60
+    }
+  },
+  {
+    "id": "p150",
+    "name": "Mewtwo",
+    "type": "Psíquico",
+    "level": 70,
+    "rarity": "legendary",
+    "desc": "Fue creado por la ciencia como el Pokémon más poderoso del mundo.",
+    "baseCaptureChance": 0.01,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "coords": [
+      -33.4350,
+      -70.6600
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90
+    }
+  },
+  {
+    "id": "p149",
+    "name": "Dragonite",
+    "type": "Dragón",
+    "level": 55,
+    "rarity": "legendary",
+    "desc": "Puede volar a 260 km/h y circunnavegar el planeta en 16 horas.",
+    "baseCaptureChance": 0.02,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "coords": [
+      -33.4180,
+      -70.6820
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95
+    }
+  },
+  {
+    "id": "p35",
+    "name": "Clefairy",
+    "type": "Normal",
+    "level": 7,
+    "rarity": "common",
+    "desc": "Se dice que dormir junto a uno trae buena suerte.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "coords": [
+      -33.4710,
+      -70.6490
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48
+    }
+  },
+  {
+    "id": "p37",
+    "name": "Vulpix",
+    "type": "Fuego",
+    "level": 8,
+    "rarity": "common",
+    "desc": "Sus seis colas son símbolo de elegancia y crecen con la edad.",
+    "baseCaptureChance": 0.5,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "coords": [
+      -33.4455,
+      -70.6155
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40
+    }
+  },
+  {
+    "id": "p95",
+    "name": "Onix",
+    "type": "Roca",
+    "level": 16,
+    "rarity": "rare",
+    "desc": "Excava bajo tierra a gran velocidad, formando túneles sinuosos.",
+    "baseCaptureChance": 0.35,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "coords": [
+      -33.4608,
+      -70.7025
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160
+    }
+  },
+  {
+    "id": "p65",
+    "name": "Alakazam",
+    "type": "Psíquico",
+    "level": 32,
+    "rarity": "epic",
+    "desc": "Su cerebro supera en inteligencia a una supercomputadora.",
+    "baseCaptureChance": 0.16,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "coords": [
+      -33.4080,
+      -70.6720
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45
+    }
+  },
+  {
+    "id": "p66",
+    "name": "Machop",
+    "type": "Lucha",
+    "level": 6,
+    "rarity": "common",
+    "desc": "Entrena sus músculos sin descanso levantando a Geodude por horas.",
+    "baseCaptureChance": 0.55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "coords": [
+      -33.4820,
+      -70.6600
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50
+    }
+  },
+  {
+    "id": "p50",
+    "name": "Diglett",
+    "type": "Tierra",
+    "level": 5,
+    "rarity": "common",
+    "desc": "Excava tan rápido que la tierra sobre él se mueve como una ola.",
+    "baseCaptureChance": 0.6,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "coords": [
+      -33.4195,
+      -70.6500
+    ],
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25
+    }
+  },
+  {
+    "id": "p41",
+    "name": "Zubat",
+    "type": "Veneno",
+    "level": 6,
+    "rarity": "common",
+    "desc": "No tiene ojos pero navega perfectamente con ultrasonidos.",
+    "baseCaptureChance": 0.6,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "coords": [
+      -33.4380,
+      -70.6865
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35
+    }
+  },
+  {
+    "id": "p60",
+    "name": "Poliwag",
+    "type": "Agua",
+    "level": 6,
+    "rarity": "common",
+    "desc": "Su espiral en el vientre es en realidad sus órganos internos visibles.",
+    "baseCaptureChance": 0.55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "coords": [
+      -33.4640,
+      -70.6220
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40
+    }
+  },
+  {
+    "id": "p96",
+    "name": "Drowzee",
+    "type": "Psíquico",
+    "level": 15,
+    "rarity": "rare",
+    "desc": "Se alimenta de los sueños de las personas dormidas.",
+    "baseCaptureChance": 0.4,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "coords": [
+      -33.4490,
+      -70.6780
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45
+    }
+  },
+  {
+    "id": "p125",
+    "name": "Electabuzz",
+    "type": "Eléctrico",
+    "level": 22,
+    "rarity": "rare",
+    "desc": "Absorbe rayos directamente de las tormentas para recargarse.",
+    "baseCaptureChance": 0.3,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "coords": [
+      -33.4560,
+      -70.6340
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57
+    }
+  },
+  {
+    "id": "p126",
+    "name": "Magmar",
+    "type": "Fuego",
+    "level": 22,
+    "rarity": "rare",
+    "desc": "Su cuerpo arde a 1200°C. Nació del interior de un volcán activo.",
+    "baseCaptureChance": 0.3,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "coords": [
+      -33.4720,
+      -70.6910
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57
+    }
+  }
+]

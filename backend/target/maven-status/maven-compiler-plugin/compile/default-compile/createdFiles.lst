@@ -1,0 +1,7 @@
+com\example\creaturebackend\controller\CreatureController.class
+com\example\creaturebackend\CreatureBackendApplication.class
+com\example\creaturebackend\repository\CreatureRepository.class
+com\example\creaturebackend\config\DataLoader.class
+com\example\creaturebackend\model\Creature.class
+com\example\creaturebackend\config\CorsConfig.class
+com\example\creaturebackend\config\DataLoader$1.class
