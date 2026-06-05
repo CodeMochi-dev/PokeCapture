@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CreatureCard from '../components/CreatureCard'
 import type { Creature } from '../types'
+import creaturesData from '../data/creatures.json'
 
 export default function Home({ 
   capturedBaseIds,
@@ -19,14 +20,9 @@ export default function Home({
 
   useEffect(() => {
     // Simulamos un leve delay para poder apreciar los skeleton loaders
-    // como si estuviera cargando de la pokeapi
     setTimeout(() => {
-      fetch('/src/data/creatures.json')
-        .then(r => r.json())
-        .then(data => {
-          setCreatures(data)
-          setLoading(false)
-        })
+      setCreatures(creaturesData as Creature[])
+      setLoading(false)
     }, 800)
   }, [])
 

@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 import type { Creature } from '../types'
 import confetti from 'canvas-confetti'
+import creaturesData from '../data/creatures.json'
 
 // Helper to get image URL
 function getPokemonImageUrl(creature: Creature): string {
@@ -25,12 +26,13 @@ export default function MapView({ onDetails, onCapture }: { onDetails?: (c: Crea
       .then(r => r.json())
       .then((data: any[]) => {
         if (!data || data.length === 0 || !Array.isArray(data[0].coords)) {
-          return fetch('/src/data/creatures.json').then(r=>r.json()).then(setCreatures)
+          setCreatures(creaturesData as Creature[])
+          return
         }
         setCreatures(data)
       })
       .catch(()=>{
-        fetch('/src/data/creatures.json').then(r=>r.json()).then(setCreatures)
+        setCreatures(creaturesData as Creature[])
       })
   },[])
 
